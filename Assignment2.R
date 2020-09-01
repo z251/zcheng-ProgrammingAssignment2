@@ -16,7 +16,7 @@ cacheInverse <- function(x, ...){
   inv <- x$getInverse()
   if(!is.null(inv)){
     message("getting cached data")
-    retrun(inv)
+    retrurn(inv)
   }
   data <- x$get()
   inv <- solve(data, ...)
